@@ -33,7 +33,7 @@ async function onRequest(ctx) {
     try {
       return await handleAuth(ctx, url);
     } catch (err) {
-      console.error(err);
+      console.error('auth error: ' + (err && err.message ? err.message : String(err)));
       return page('Erreur', '<p class="err">Une erreur est survenue. Réessayez dans un instant.</p>' +
         '<p><a href="/auth/login">Retour à la connexion</a></p>', 500);
     }
