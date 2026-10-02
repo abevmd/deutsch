@@ -1,0 +1,8 @@
+worker.js
+functions/
+db/
+wrangler.jsonc
+.assetsignore
+.git/
+.wrangler/
+node_modules/

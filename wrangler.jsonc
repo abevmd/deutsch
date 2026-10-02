@@ -1,0 +1,18 @@
+{
+  "name": "deutsch",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-10",
+  "keep_vars": true,
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "deutschdb",
+      "database_id": "640bce5f-b0fb-4dd3-8914-a91554b85fa6"
+    }
+  ]
+}
