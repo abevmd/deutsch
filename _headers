@@ -1,0 +1,6 @@
+/*
+  Cache-Control: private, no-cache
+  X-Robots-Tag: noindex
+
+/audio/*
+  Cache-Control: private, max-age=86400
